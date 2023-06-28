@@ -29,6 +29,7 @@ Environments are listed alphabetically.
 * [Misc](#misc)
 * [Physics Simulators](#physics-simulators)
 
+<robotics> 
 ## Robotics
 <table>
   <tbody>
@@ -254,6 +255,7 @@ Environments are listed alphabetically.
     </tr>
   </tbody>
 </table>
+</robotics>
 
 ## Games
 <table>
