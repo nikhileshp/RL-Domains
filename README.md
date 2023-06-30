@@ -14,13 +14,13 @@ Table of Contents
 =================
 
 * [Suites](#suites)
-* [Robotics](#robotics)
 * [Games](#games)
 * [Multi-Task Learning](#multi-task-learning)
+* [Multi-Agent](#multi-agent)
 * [Generalization](#generalization)
 * [Navigation](#navigation)
 * [Humanoid](#humanoid)
-* [Multi-Agent](#multi-agent)
+* [Robotics](#robotics)
 * [Safety](#safety)
 * [Physics Simulators](#physics-simulators)
 
@@ -131,236 +131,6 @@ Table of Contents
 </details>
 
 
-## Robotics
-
-<details>
-<summary> <font size = 16> Robotics domains</font></summary>
-<table>
-  <tbody>
-    <tr>
-      <td width='50%' align='center'>
-        <img src='media/assistive_gym.jpg' width=600 />
-      </td>
-      <td width='50%'>
-        <a href='https://github.com/Healthcare-Robotics/assistive-gym'> Assistive-gym </a>
-        <ul>
-          <li>
-           6 assistive tasks (ScratchItch, BedBathing, Feeding, Drinking, Dressing, and ArmManipulation).
-          </li>
-          <li>
-           4 commercial robots (PR2, Jaco, Baxter, Sawyer).
-          </li>
-          <li>
-            2 human states: static or active (takes actions according to a separate control policy).
-          </li>
-          <li>
-           Customizable female and male human models. 40 actuated human joints (head, torso, arms, waist, and legs).Realistic human joint limit.
-          </li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td width='50%' align='center'>
-        <img src='media/dexterous_gym.gif' width=300 />
-      </td>
-      <td width='50%'> <a href='https://github.com/henrycharlesworth/dexterous-gym'>Dexterous Gym</a>
-        <ul>
-          <li>
-            Extensions of the OpenAI Gym Dexterous Manipulation Environments.
-          </li>
-          <li>
-            Multiple environments requiring cooperation between two hands (handing objects over, throwing/catching objects).
-          </li>
-          <li>
-            "Pen Spin" Environment - train a hand to spin a pen between its fingers.
-          </li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td width='50%' align='center'>
-        <img src='media/doorgym.gif' width=300 />
-      </td>
-      <td width='50%'> <a href='https://github.com/PSVL/DoorGym'>DoorGym</a>
-        <ul>
-          <li>
-            Train a policy to open up various doors.
-          </li>
-          <li>
-            Unity integration.
-          </li>
-          <li>
-            Random door knob generator and door knob dataset.
-          </li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td width='50%' align='center'>
-        <img src='media/mara_2.gif' width=300 />
-      </td>
-      <td width='50%'>
-        <a href='https://github.com/AcutronicRobotics/gym-gazebo2'>Gym Gazebo 2</a>
-        <ul>
-          <li>
-            Toolkit for developing and comparing reinforcement learning algorithms using ROS 2 and Gazebo.
-          </li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td width='50%' align='center'>
-      </td>
-      <td width='50%'>
-        <a href='https://github.com/robotology/gym-ignition'>Gym Ignition</a>
-        <ul>
-          <li>
-            Provides the capability of creating reproducible robotics environments for reinforcement learning research.
-          </li>
-          <li>
-            Accelerated and multiprocess execution
-          </li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td width='50%' align='center'>
-        <img src='media/furn.gif' width=300 />
-      </td>
-      <td width='50%'>
-        <a href='https://clvrai.github.io/furniture/'>IKEA Furniture Assembly</a>
-        <ul>
-          <li>
-            Complex long-horizon manipulation tasks.
-          </li>
-          <li>
-            Includes 80+ furniture models, customizable background, lighting
-            and textures.
-          </li>
-          <li>
-            Features Baxter, Sawyer, and more robots.
-          </li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td width='50%' align='center'>
-        <img src='media/ml45-1080p.gif' width=500 />
-      </td>
-      <td width='50%'>
-        <a href='https://github.com/rlworkgroup/metaworld'>Meta-World</a>
-        <ul>
-          <li>
-            50 diverse robot manipulation tasks on a simulated Sawyer robotic arm.
-          </li>
-          <li>
-            Also includes a variety of evaluation modes varying the number of training and testing tasks.
-          </li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td width='50%' align='center'>
-        <img src='media/play_data_small.gif' width=300 />
-      </td>
-      <td width='50%'> <a href='https://github.com/google-research/google-research/tree/master/playrooms'>Playroom</a>
-        <ul>
-          <li>
-            Variety of tasks in desk scenario.
-          </li>
-          <li>
-            Evaluation code and play dataset will be included soon.
-          </li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td width='50%' align='center'>
-        <img src='media/monkeys.gif' width=300 />
-      </td>
-      <td width='50%'> <a href='https://github.com/leggedrobotics/raisimLib'>RAISIM</a>
-      <ul>
-        <li>
-          Raisim is a physics engine for rigid-body dynamics simulation.
-          Although it is a general physics engine, it has been mainly
-          used/tested for robotics and reinforcement learning so far. It
-          features an efficient implementation of recursive algorithms for
-          articulated system dynamics (Recursive Newton-Euler and Composite
-          Rigid Body Algorithm). RaisimLib is an exported cmake package of
-          raisim.
-        </li>
-      </ul>
-      </td>
-    </tr>
-    <tr>
-      <td width='50%' align='center'>
-        <img src='media/rl-env.png' width=500 />
-      </td>
-      <td width='50%'>
-        <a href='https://sites.google.com/view/rlbench'>RLBench</a>
-        <ul>
-          <li>
-            100 unique, hand designed tasks.
-          </li>
-          <li>
-            Vision-guided manipulation, imitation learning, multi-task
-            learning, geometric computer vision and few-shot learning.
-          </li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td width='50%' align='center'>
-        <img src='media/surreal.png' width=400 />
-      </td>
-      <td width='50%'> <a href='https://github.com/StanfordVL/robosuite'>Robosuite</a>
-      <ul>
-        <li>
-          A set of standard benchmarking tasks in robots.
-        </li>
-        <li>
-          Defines a framework for easily creating new tasks and environments.
-        </li>
-      </ul>
-      </td>
-    </tr>
-    <tr>
-      <td width='50%' align='center'>
-        <img src='media/roboschool.gif' width=300 />
-      </td>
-      <td width='50%'> <a href='https://openai.com/blog/roboschool/'>Roboschool</a>
-      <ul>
-        <li>
-          Control robots in simulation.
-        </li>
-        <li>
-          Can use other physics engines other than MuJoCo.
-        </li>
-        <li>
-          Alternative to standard OpenAI Gym mujoco environments.
-        </li>
-        <li>
-          Easy to train multiple agents at once.
-        </li>
-      </ul>
-      </td>
-    </tr>
-    <tr>
-      <td width='50%' align='center'>
-        <img src='media/rex.png' width=300 />
-      </td>
-      <td width='50%'> <a href='https://github.com/nicrusso7/rex-gym'>Rex-Gym</a>
-      <ul>
-        <li>
-          OpenAI Gym environments for an open-source quadruped robot (SpotMicro)
-        </li>
-      </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
-</details>
-
 ## Games
 <details>
 <table>
@@ -449,19 +219,7 @@ Table of Contents
         </ul>
       </td>
     </tr>
-    <tr>
-      <td width='50%' align='center'>
-        <img src='media/phyre.gif' width=300 />
-      </td>
-      <td width='50%'>
-        <a href='https://phyre.ai/'>PHYRE</a>
-        <ul>
-          <li>
-            Benchmark for physical reasoning that contains a set of simple classical mechanics puzzles in a 2D enviroment.
-          </li>
-        </ul>
-      </td>
-    </tr>
+    
     <tr>
       <td width='50%' align='center'>
         <img src='media/fifa.gif' width=300 />
@@ -534,6 +292,7 @@ Table of Contents
   </tbody>
 </table>
 </details>
+
 
 ## Multi-Task Learning
 <details>
@@ -611,6 +370,103 @@ Table of Contents
           <li>
             Vision-guided manipulation, imitation learning, multi-task
             learning, geometric computer vision and few-shot learning.
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</details>
+
+
+## Multi-Agent
+<details open> 
+  <summary> Environments with multiple agents 
+  </summary>
+<table>
+  <tbody>
+    <tr>
+            <td width='50%' align='center'>
+        <img src='media/mmo.png' width=500 />
+            </td>
+            <td>
+        <a href='https://github.com/openai/neural-mmo'>Massive Multi Agent Game Environment</a>
+        <ul>
+          <li>
+            We consider MMORPGs (Massive
+            Multiplayer Online Role Playing Games) the best proxy for the real
+            world among human games: they are complete macrocosms featuring
+            thousands of agents per persistent world, diverse skilling systems,
+            global economies, complex emergent social structures, and ad-hoc
+            high stakes single and team based conflict.
+          </li>
+        </ul>
+            </td>
+          </tr>
+    <tr>
+      <td width='50%' align='center'>
+        <img src='media/multi_agent_particle_envs.gif' width=300 />
+      </td>
+      <td width='50%'>
+        <a href='https://github.com/openai/multiagent-particle-envs'>Multi-agent Particle Environment</a>
+        <ul>
+          <li>
+         A simple multi-agent particle world with a continuous observation and discrete action space, along with some basic simulated physics
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+          <td width='50%' align='center'>
+        <img src='media/compete.png' width=300 />
+          </td>
+          <td>
+        <a href='https://github.com/openai/multiagent-competition'>OpenAI Multi-Agent Competition Environments</a>
+        <ul>
+          <li>
+            Contains many continous control, multi-agent tasks.
+          </li>
+        </ul>
+          </td>
+        </tr>
+      <tr>
+        <td width='50%' align='center'>
+        <img src='media/hideseek.png' width=300 />
+        </td>
+        <td>
+        <a href='https://github.com/openai/multi-agent-emergence-environments'>OpenAI Multi-Agent Hide and Seek</a>
+        <ul>
+          <li>
+            A team of seekers and a team of hiders.
+          </li>
+          <li>
+            Both teams can use tools to achieve their objective.
+          </li>
+        </ul>
+        </td>
+      </tr>
+    <tr>
+      <td width='50%' align='center'>
+        <img src='media/robosumo2.gif' width=300 />
+      </td>
+      <td>
+        <a href='https://github.com/openai/robosumo'>RoboSumo</a>
+        <ul>
+          <li>
+            Sumo-wrestling between two ants using continuous control.
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td width='50%' align='center'>
+        <img src='media/sumo-rl.png' width=300 />
+      </td>
+      <td>
+        <a href='https://github.com/LucasAlegre/sumo-rl'>SUMO-RL</a>
+        <ul>
+          <li>
+            Multi-agent traffic signal control using SUMO simulator.
           </li>
         </ul>
       </td>
@@ -1167,101 +1023,237 @@ Table of Contents
 </table>
 </details>
 
-## Multi-Agent
-<details open> 
-  <summary> Environments with multiple agents 
-  </summary>
+
+## Robotics
+
+<details>
+<summary> <font size = 16> Robotics domains</font></summary>
 <table>
   <tbody>
     <tr>
-            <td width='50%' align='center'>
-        <img src='media/mmo.png' width=500 />
-            </td>
-            <td>
-        <a href='https://github.com/openai/neural-mmo'>Massive Multi Agent Game Environment</a>
-        <ul>
-          <li>
-            We consider MMORPGs (Massive
-            Multiplayer Online Role Playing Games) the best proxy for the real
-            world among human games: they are complete macrocosms featuring
-            thousands of agents per persistent world, diverse skilling systems,
-            global economies, complex emergent social structures, and ad-hoc
-            high stakes single and team based conflict.
-          </li>
-        </ul>
-            </td>
-          </tr>
-    <tr>
       <td width='50%' align='center'>
-        <img src='media/multi_agent_particle_envs.gif' width=300 />
+        <img src='media/assistive_gym.jpg' width=600 />
       </td>
       <td width='50%'>
-        <a href='https://github.com/openai/multiagent-particle-envs'>Multi-agent Particle Environment</a>
+        <a href='https://github.com/Healthcare-Robotics/assistive-gym'> Assistive-gym </a>
         <ul>
           <li>
-         A simple multi-agent particle world with a continuous observation and discrete action space, along with some basic simulated physics
-          </li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-          <td width='50%' align='center'>
-        <img src='media/compete.png' width=300 />
-          </td>
-          <td>
-        <a href='https://github.com/openai/multiagent-competition'>OpenAI Multi-Agent Competition Environments</a>
-        <ul>
-          <li>
-            Contains many continous control, multi-agent tasks.
-          </li>
-        </ul>
-          </td>
-        </tr>
-      <tr>
-        <td width='50%' align='center'>
-        <img src='media/hideseek.png' width=300 />
-        </td>
-        <td>
-        <a href='https://github.com/openai/multi-agent-emergence-environments'>OpenAI Multi-Agent Hide and Seek</a>
-        <ul>
-          <li>
-            A team of seekers and a team of hiders.
+           6 assistive tasks (ScratchItch, BedBathing, Feeding, Drinking, Dressing, and ArmManipulation).
           </li>
           <li>
-            Both teams can use tools to achieve their objective.
+           4 commercial robots (PR2, Jaco, Baxter, Sawyer).
           </li>
-        </ul>
-        </td>
-      </tr>
-    <tr>
-      <td width='50%' align='center'>
-        <img src='media/robosumo2.gif' width=300 />
-      </td>
-      <td>
-        <a href='https://github.com/openai/robosumo'>RoboSumo</a>
-        <ul>
           <li>
-            Sumo-wrestling between two ants using continuous control.
+            2 human states: static or active (takes actions according to a separate control policy).
+          </li>
+          <li>
+           Customizable female and male human models. 40 actuated human joints (head, torso, arms, waist, and legs).Realistic human joint limit.
           </li>
         </ul>
       </td>
     </tr>
     <tr>
       <td width='50%' align='center'>
-        <img src='media/sumo-rl.png' width=300 />
+        <img src='media/dexterous_gym.gif' width=300 />
       </td>
-      <td>
-        <a href='https://github.com/LucasAlegre/sumo-rl'>SUMO-RL</a>
+      <td width='50%'> <a href='https://github.com/henrycharlesworth/dexterous-gym'>Dexterous Gym</a>
         <ul>
           <li>
-            Multi-agent traffic signal control using SUMO simulator.
+            Extensions of the OpenAI Gym Dexterous Manipulation Environments.
+          </li>
+          <li>
+            Multiple environments requiring cooperation between two hands (handing objects over, throwing/catching objects).
+          </li>
+          <li>
+            "Pen Spin" Environment - train a hand to spin a pen between its fingers.
           </li>
         </ul>
+      </td>
+    </tr>
+    <tr>
+      <td width='50%' align='center'>
+        <img src='media/doorgym.gif' width=300 />
+      </td>
+      <td width='50%'> <a href='https://github.com/PSVL/DoorGym'>DoorGym</a>
+        <ul>
+          <li>
+            Train a policy to open up various doors.
+          </li>
+          <li>
+            Unity integration.
+          </li>
+          <li>
+            Random door knob generator and door knob dataset.
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td width='50%' align='center'>
+        <img src='media/mara_2.gif' width=300 />
+      </td>
+      <td width='50%'>
+        <a href='https://github.com/AcutronicRobotics/gym-gazebo2'>Gym Gazebo 2</a>
+        <ul>
+          <li>
+            Toolkit for developing and comparing reinforcement learning algorithms using ROS 2 and Gazebo.
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td width='50%' align='center'>
+      </td>
+      <td width='50%'>
+        <a href='https://github.com/robotology/gym-ignition'>Gym Ignition</a>
+        <ul>
+          <li>
+            Provides the capability of creating reproducible robotics environments for reinforcement learning research.
+          </li>
+          <li>
+            Accelerated and multiprocess execution
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td width='50%' align='center'>
+        <img src='media/furn.gif' width=300 />
+      </td>
+      <td width='50%'>
+        <a href='https://clvrai.github.io/furniture/'>IKEA Furniture Assembly</a>
+        <ul>
+          <li>
+            Complex long-horizon manipulation tasks.
+          </li>
+          <li>
+            Includes 80+ furniture models, customizable background, lighting
+            and textures.
+          </li>
+          <li>
+            Features Baxter, Sawyer, and more robots.
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td width='50%' align='center'>
+        <img src='media/ml45-1080p.gif' width=500 />
+      </td>
+      <td width='50%'>
+        <a href='https://github.com/rlworkgroup/metaworld'>Meta-World</a>
+        <ul>
+          <li>
+            50 diverse robot manipulation tasks on a simulated Sawyer robotic arm.
+          </li>
+          <li>
+            Also includes a variety of evaluation modes varying the number of training and testing tasks.
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td width='50%' align='center'>
+        <img src='media/play_data_small.gif' width=300 />
+      </td>
+      <td width='50%'> <a href='https://github.com/google-research/google-research/tree/master/playrooms'>Playroom</a>
+        <ul>
+          <li>
+            Variety of tasks in desk scenario.
+          </li>
+          <li>
+            Evaluation code and play dataset will be included soon.
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td width='50%' align='center'>
+        <img src='media/monkeys.gif' width=300 />
+      </td>
+      <td width='50%'> <a href='https://github.com/leggedrobotics/raisimLib'>RAISIM</a>
+      <ul>
+        <li>
+          Raisim is a physics engine for rigid-body dynamics simulation.
+          Although it is a general physics engine, it has been mainly
+          used/tested for robotics and reinforcement learning so far. It
+          features an efficient implementation of recursive algorithms for
+          articulated system dynamics (Recursive Newton-Euler and Composite
+          Rigid Body Algorithm). RaisimLib is an exported cmake package of
+          raisim.
+        </li>
+      </ul>
+      </td>
+    </tr>
+    <tr>
+      <td width='50%' align='center'>
+        <img src='media/rl-env.png' width=500 />
+      </td>
+      <td width='50%'>
+        <a href='https://sites.google.com/view/rlbench'>RLBench</a>
+        <ul>
+          <li>
+            100 unique, hand designed tasks.
+          </li>
+          <li>
+            Vision-guided manipulation, imitation learning, multi-task
+            learning, geometric computer vision and few-shot learning.
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td width='50%' align='center'>
+        <img src='media/surreal.png' width=400 />
+      </td>
+      <td width='50%'> <a href='https://github.com/StanfordVL/robosuite'>Robosuite</a>
+      <ul>
+        <li>
+          A set of standard benchmarking tasks in robots.
+        </li>
+        <li>
+          Defines a framework for easily creating new tasks and environments.
+        </li>
+      </ul>
+      </td>
+    </tr>
+    <tr>
+      <td width='50%' align='center'>
+        <img src='media/roboschool.gif' width=300 />
+      </td>
+      <td width='50%'> <a href='https://openai.com/blog/roboschool/'>Roboschool</a>
+      <ul>
+        <li>
+          Control robots in simulation.
+        </li>
+        <li>
+          Can use other physics engines other than MuJoCo.
+        </li>
+        <li>
+          Alternative to standard OpenAI Gym mujoco environments.
+        </li>
+        <li>
+          Easy to train multiple agents at once.
+        </li>
+      </ul>
+      </td>
+    </tr>
+    <tr>
+      <td width='50%' align='center'>
+        <img src='media/rex.png' width=300 />
+      </td>
+      <td width='50%'> <a href='https://github.com/nicrusso7/rex-gym'>Rex-Gym</a>
+      <ul>
+        <li>
+          OpenAI Gym environments for an open-source quadruped robot (SpotMicro)
+        </li>
+      </ul>
       </td>
     </tr>
   </tbody>
 </table>
 </details>
+
 
 ## Safety
 <details>
@@ -1332,7 +1324,7 @@ Table of Contents
 * <a href='https://pybullet.org/wordpress/'>PyBullet</a>
 * <a href='http://dartsim.github.io'>DART</a>
 * <a href='http://www.coppeliarobotics.com/'>V-REP</a>
-
+* <a href='https://phyre.ai/'>PHYRE</a>
 
 
 ## Related Collections
