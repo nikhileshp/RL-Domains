@@ -133,21 +133,11 @@ Table of Contents
 
 ## Games
 <details>
+  <summary> A list of domains to train RL on games </summary>
+  
 <table>
   <tbody>
-    <tr>
-      <td width='50%' align='center'>
-        <img src='media/bomberland.gif' width=300 />
-      </td>
-      <td width='50%'>
-        <a href='https://github.com/coderonehq/bomberland'>Bomberland</a>
-        <ul>
-          <li>
-            Multi-agent 2D grid environment based on Bomberman.
-          </li>
-        </ul>
-      </td>
-    </tr>
+
     <tr>
       <td width='50%' align='center'>
         <img src='media/coin_runner.gif' width=300 />
@@ -385,6 +375,19 @@ Table of Contents
   </summary>
 <table>
   <tbody>
+    <tr>
+      <td width='50%' align='center'>
+        <img src='media/bomberland.gif' width=300 />
+      </td>
+      <td width='50%'>
+        <a href='https://github.com/coderonehq/bomberland'>Bomberland</a>
+        <ul>
+          <li>
+            Multi-agent 2D grid environment based on Bomberman.
+          </li>
+        </ul>
+      </td>
+    </tr>
     <tr>
             <td width='50%' align='center'>
         <img src='media/mmo.png' width=500 />
