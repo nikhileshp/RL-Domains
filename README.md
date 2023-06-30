@@ -1,7 +1,6 @@
 # RL-Domains
 Domains for Reinforcement Learning
 
-
 A list of categorized reinforcement learning environments.
 
 
@@ -29,8 +28,11 @@ Environments are listed alphabetically.
 * [Misc](#misc)
 * [Physics Simulators](#physics-simulators)
 
-<robotics> 
+
 ## Robotics
+
+<details>
+<summary> <font size = 16> Robotics domains</font></summary>
 <table>
   <tbody>
     <tr>
@@ -255,9 +257,10 @@ Environments are listed alphabetically.
     </tr>
   </tbody>
 </table>
-</robotics>
+</details>
 
 ## Games
+<details open>
 <table>
   <tbody>
     <tr>
@@ -428,8 +431,10 @@ Environments are listed alphabetically.
     </tr>
   </tbody>
 </table>
+</details>
 
 ## Multi-Task Learning
+<details open>
 <table>
   <tbody>
     <tr>
@@ -510,8 +515,10 @@ Environments are listed alphabetically.
     </tr>
   </tbody>
 </table>
+</details>
 
 ## Suites
+<details>
 <table>
   <tbody>
     <tr>
@@ -613,6 +620,7 @@ Environments are listed alphabetically.
     </tr>
   </tbody>
 </table>
+</details>
 
 ## Generalization
 <table>
