@@ -24,8 +24,6 @@ Environments are listed alphabetically.
 * [Safety](#safety)
 * [Autonomous Driving](#autonomous-driving)
 * [Humanoid](#humanoid)
-* [Text](#text)
-* [Misc](#misc)
 * [Physics Simulators](#physics-simulators)
 
 
@@ -1305,85 +1303,6 @@ Environments are listed alphabetically.
 </table>
 
 
-
-## Text
-<table>
-  <tbody>
-    <tr>
-      <td width='50%' align='center'>
-        <img src='media/jericho.png' width=300 />
-      </td>
-      <td width='50%'>
-        <a href='https://github.com/microsoft/jericho'>Jericho</a>
-        <ul>
-          <li>
-            A learning environment for man-made Interactive Fiction games.
-          </li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td width='50%' align='center'>
-      </td>
-      <td width='50%'>
-        <a href='https://github.com/microsoft/TextWorld'>TextWorld</a>
-        <ul>
-          <li>
-            TextWorld is a sandbox learning environment for the training
-            and evaluation of reinforcement learning (RL) agents on text-based
-            games.
-          </li>
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-
-
-
-## Misc
-<table>
-  <tbody>
-  <tr>
-    <td width='50%' align='center'>
-    </td>
-    <td width='50%'>
-        <a href='https://github.com/criteo-research/reco-gym'>Reco Gym</a>
-        <ul>
-          <li>
-              Reinforcement Learning Environment for the problem of Product Recommendation in Online Advertising.
-          </li>
-        </ul>
-    </td>
-  </tr>
-  <tr>
-    <td width='50%' align='center'>
-    </td>
-    <td width='50%'>
-        <a href='https://github.com/google-research/recsim'>RecSim</a>
-        <ul>
-          <li>
-              A Configurable Recommender Systems Simulation Platform from Google.
-          </li>
-        </ul>
-    </td>
-  </tr>
-  <tr>
-    <td width='50%' align='center'>
-            <img src='media/anm.png' width=300 />
-    </td>
-    <td width='50%'>
-        <a href='https://github.com/robinhenry/gym-anm'>Gym-ANM</a>
-        <ul>
-          <li>
-              Environments that model Active Network Management (ANM) tasks in electricity distribution networks. 
-          </li>
-        </ul>
-    </td>
-  </tr>
-  </tbody>
-</table>
 
 
 ## Physics Simulators
