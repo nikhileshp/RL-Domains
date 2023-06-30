@@ -137,7 +137,6 @@ Table of Contents
   <summary> A list of domains to train RL on games </summary>
     <table>
       <tbody>
-    
         <tr>
           <td width='50%' align='center'>
             <img src='media/coin_runner.gif' width=300 />
@@ -209,7 +208,6 @@ Table of Contents
             </ul>
           </td>
         </tr>
-        
         <tr>
           <td width='50%' align='center'>
             <img src='media/fifa.gif' width=300 />
