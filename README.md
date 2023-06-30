@@ -208,6 +208,22 @@ Table of Contents
             </ul>
           </td>
         </tr>
+              <tr>
+      <td width='50%' align='center'>
+        <img src='media/obstacle.png' width=300 />
+      </td>
+      <td>
+        <a href='https://github.com/Unity-Technologies/obstacle-tower-challenge'>Obstacle Tower</a>
+        <ul>
+          <li>
+           Traverse through procedurally generated floors which get progressively harder.
+          </li>
+          <li>
+           Challenging visual inputs.
+          </li>
+        </ul>
+      </td>
+    </tr>
         <tr>
           <td width='50%' align='center'>
             <img src='media/fifa.gif' width=300 />
@@ -584,6 +600,8 @@ Table of Contents
 </details>
 
 ## Navigation
+<details>
+  <summary> Environments that deal with the dynamics of navigation </summary>
 <table>
   <tbody>
       <tr>
@@ -653,24 +671,9 @@ Table of Contents
         </ul>
             </td>
           </tr>
-      <tr>
-      <td width='50%' align='center'>
-        <img src='media/obstacle.png' width=300 />
-      </td>
-      <td>
-        <a href='https://github.com/Unity-Technologies/obstacle-tower-challenge'>Obstacle Tower</a>
-        <ul>
-          <li>
-           Traverse through procedurally generated floors which get progressively harder.
-          </li>
-          <li>
-           Challenging visual inputs.
-          </li>
-        </ul>
-      </td>
-    </tr>
   </tbody>
 </table>
+</details>
 
 
 ### Navigation - Autonmous Driving
