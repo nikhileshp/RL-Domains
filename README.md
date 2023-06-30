@@ -12,7 +12,7 @@ A list of categorized reinforcement learning environments.
 
 Table of Contents
 =================
-Environments are listed alphabetically.
+
 * [Suites](#suites)
 * [Robotics](#robotics)
 * [Games](#games)
@@ -22,7 +22,6 @@ Environments are listed alphabetically.
 * [Humanoid](#humanoid)
 * [Multi-Agent](#multi-agent)
 * [Safety](#safety)
-
 * [Physics Simulators](#physics-simulators)
 
 
