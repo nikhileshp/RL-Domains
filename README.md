@@ -623,6 +623,7 @@ Environments are listed alphabetically.
 
 ## Generalization
 <details>
+  
   <summary> Envirnments that tests how well the model generalizes </summary>
   
 <table>
@@ -725,6 +726,7 @@ Environments are listed alphabetically.
     </tr>
 </table>
 </details>
+
 ## Navigation
 <table>
   <tbody>
