@@ -368,7 +368,7 @@ Table of Contents
 
 
 ## Multi-Agent
-<details open> 
+<details> 
   <summary> Environments with multiple agents 
   </summary>
 <table>
