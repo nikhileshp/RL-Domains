@@ -26,7 +26,8 @@ Table of Contents
 
 
 ## Suites
-<details open>
+<details>
+  <summary> Various suites for RL domains</summary>
 <table>
   <tbody>
     <tr>
@@ -134,153 +135,152 @@ Table of Contents
 ## Games
 <details>
   <summary> A list of domains to train RL on games </summary>
-  
-<table>
-  <tbody>
-
-    <tr>
-      <td width='50%' align='center'>
-        <img src='media/coin_runner.gif' width=300 />
-      </td>
-      <td width='50%'>
-        <a href='https://github.com/openai/coinrun'>Coin-Run</a>
-        <ul>
-          <li>
-             Training environment which provides a metric for an agent’s
-             ability to transfer its experience to novel situations.
-          </li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td width='50%' align='center'>
-        <img src='media/gym_retro.gif' width=300 />
-      </td>
-      <td width='50%'>
-        <a href='https://github.com/openai/retro'>Gym Retro</a>
-        <ul>
-          <li>
-            Gym Retro lets you turn classic video games into Gym environments
-            for reinforcement learning and comes with integrations for ~1000.
-            games.
-          </li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td width='50%' align='center'>
-        <img src='media/holodeck.jpg' width=300 />
-      </td>
-      <td width='50%'>
-        <a href='https://holodeck.cs.byu.edu/'>Holodeck</a>
-        <ul>
-          <li>
-            High Fidelity Simulator for Reinforcement Learning and Robotics Research.
-          </li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td width='50%' align='center'>
-        <img src='media/marlo.gif' width=300 />
-      </td>
-      <td width='50%'>
-        <a href='https://github.com/crowdAI/marLo'>MarLÖ : Reinforcement Learning + Minecraft</a>
-        <ul>
-          <li>
-           A high level API built on top of Project MalmÖ to facilitate Reinforcement Learning experiments with a great degree of generalizability, capable of solving problems in pseudo-random, procedurally changing single and multi agent environments within the world of the mediatic phenomenon game Minecraft.
-          </li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td width='50%' align='center'>
-        <img src='media/mine.gif' width=300 />
-      </td>
-      <td width='50%'>
-        <a href='https://github.com/minerllabs/minerl'>Minecraft</a>
-        <ul>
-          <li>
-            Data API for the MineRLv0 dataset.
-          </li>
-          <li>
-            Also has minecraft environment simulator with basic built in tasks.
-          </li>
-        </ul>
-      </td>
-    </tr>
+    <table>
+      <tbody>
     
-    <tr>
-      <td width='50%' align='center'>
-        <img src='media/fifa.gif' width=300 />
-      </td>
-      <td width='50%'>
-        <a href='https://github.com/google-research/football'>Soccer Simulator</a>
-        <ul>
-          <li>
-            Can control one or all football players at a time.
-          </li>
-          <li>
-            Includes football academy for diverse scenarios such as various
-            passing scenarios.
-          </li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td width='50%' align='center'>
-        <img src='media/pysc2.jpeg' width=300 />
-      </td>
-      <td width='50%'>
-        <a href='https://github.com/deepmind/pysc2'>StarCraft 2</a>
-        <ul>
-          <li>
-            Provides an interface for RL agents to interact with StarCraft 2,
-            getting observations and sending actions.
-          </li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td width='50%' align='center'>
-      </td>
-      <td width='50%'>
-        <a href='https://github.com/ppaquette/gym-super-mario'>SuperMario</a>
-        <ul>
-          <li>
-            Gym wrapper for the Super Mario levels. Includes many levels.
-          </li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td width='50%' align='center'>
-      </td>
-      <td width='50%'>
-        <a href='https://github.com/TorchCraft/TorchCraft'>TorchCraft</a>
-        <ul>
-          <li>
-            Python interface for playing "StarCraft: Brood War".
-          </li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td width='50%' align='center'>
-        <img src='media/vizdom.gif' width=300 height=100 />
-      </td>
-      <td width='50%'>
-        <a href='https://github.com/mwydmuch/ViZDoom'>VizDoom</a>
-        <ul>
-          <li>
-            ViZDoom allows developing AI bots that play Doom using only the
-            visual information (the screen buffer).
-          </li>
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
+        <tr>
+          <td width='50%' align='center'>
+            <img src='media/coin_runner.gif' width=300 />
+          </td>
+          <td width='50%'>
+            <a href='https://github.com/openai/coinrun'>Coin-Run</a>
+            <ul>
+              <li>
+                 Training environment which provides a metric for an agent’s
+                 ability to transfer its experience to novel situations.
+              </li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td width='50%' align='center'>
+            <img src='media/gym_retro.gif' width=300 />
+          </td>
+          <td width='50%'>
+            <a href='https://github.com/openai/retro'>Gym Retro</a>
+            <ul>
+              <li>
+                Gym Retro lets you turn classic video games into Gym environments
+                for reinforcement learning and comes with integrations for ~1000.
+                games.
+              </li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td width='50%' align='center'>
+            <img src='media/holodeck.jpg' width=300 />
+          </td>
+          <td width='50%'>
+            <a href='https://holodeck.cs.byu.edu/'>Holodeck</a>
+            <ul>
+              <li>
+                High Fidelity Simulator for Reinforcement Learning and Robotics Research.
+              </li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td width='50%' align='center'>
+            <img src='media/marlo.gif' width=300 />
+          </td>
+          <td width='50%'>
+            <a href='https://github.com/crowdAI/marLo'>MarLÖ : Reinforcement Learning + Minecraft</a>
+            <ul>
+              <li>
+               A high level API built on top of Project MalmÖ to facilitate Reinforcement Learning experiments with a great degree of generalizability, capable of solving problems in pseudo-random, procedurally changing single and multi agent environments within the world of the mediatic phenomenon game Minecraft.
+              </li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td width='50%' align='center'>
+            <img src='media/mine.gif' width=300 />
+          </td>
+          <td width='50%'>
+            <a href='https://github.com/minerllabs/minerl'>Minecraft</a>
+            <ul>
+              <li>
+                Data API for the MineRLv0 dataset.
+              </li>
+              <li>
+                Also has minecraft environment simulator with basic built in tasks.
+              </li>
+            </ul>
+          </td>
+        </tr>
+        
+        <tr>
+          <td width='50%' align='center'>
+            <img src='media/fifa.gif' width=300 />
+          </td>
+          <td width='50%'>
+            <a href='https://github.com/google-research/football'>Soccer Simulator</a>
+            <ul>
+              <li>
+                Can control one or all football players at a time.
+              </li>
+              <li>
+                Includes football academy for diverse scenarios such as various
+                passing scenarios.
+              </li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td width='50%' align='center'>
+            <img src='media/pysc2.jpeg' width=300 />
+          </td>
+          <td width='50%'>
+            <a href='https://github.com/deepmind/pysc2'>StarCraft 2</a>
+            <ul>
+              <li>
+                Provides an interface for RL agents to interact with StarCraft 2,
+                getting observations and sending actions.
+              </li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td width='50%' align='center'>
+          </td>
+          <td width='50%'>
+            <a href='https://github.com/ppaquette/gym-super-mario'>SuperMario</a>
+            <ul>
+              <li>
+                Gym wrapper for the Super Mario levels. Includes many levels.
+              </li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td width='50%' align='center'>
+          </td>
+          <td width='50%'>
+            <a href='https://github.com/TorchCraft/TorchCraft'>TorchCraft</a>
+            <ul>
+              <li>
+                Python interface for playing "StarCraft: Brood War".
+              </li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td width='50%' align='center'>
+            <img src='media/vizdom.gif' width=300 height=100 />
+          </td>
+          <td width='50%'>
+            <a href='https://github.com/mwydmuch/ViZDoom'>VizDoom</a>
+            <ul>
+              <li>
+                ViZDoom allows developing AI bots that play Doom using only the
+                visual information (the screen buffer).
+              </li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+    </table>
 </details>
 
 
